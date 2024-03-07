@@ -807,3 +807,28 @@ li.prose-indent {
 .theme-base-brown .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* De la versión adaptada */
+
+.galeria-imagenes {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galeria-imagenes-container {
+  max-width: 250px;
+}
+
+tei-name[type="org"], tei-orgname {
+  color: red;
+}
+
+tei-name[type="person"], tei-persname {
+  color: blue;
+}
+
+tei-name[type="place"], tei-placename {
+  color: green;
+}

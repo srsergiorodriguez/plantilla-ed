@@ -1,0 +1,14 @@
+<div class="galeria-imagenes">
+  {% assign image_files = site.static_files %}
+  {% for image in image_files %}
+    {% if image.path contains include.path %}
+      {% if image.path contains '.jpg' or image.path contains '.jpeg' or image.path contains '.tiff' or image.path contains 'png' %}
+        <div class="galeria-imagenes-container">
+          <a href="{{ site.baseurl }}{{ image.path }}" target="_blank">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="" />
+          </a>
+        </div>  
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>

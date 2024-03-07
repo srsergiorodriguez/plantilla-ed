@@ -7,9 +7,9 @@
 
     <!-- This if statement decides which sidebar to use -->
     {% if page.toc %}
-    {% include sidebar-toc.html %}
+      {% include sidebar-toc.html %}
     {% else %}
-    {% include sidebar.html %}
+      {% include sidebar.html %}
     {% endif %}
 
     <!--
@@ -82,7 +82,7 @@
     </script>
 
 <!-- Facebook SDK for JavaScript -->
-<script>
+<!-- <script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '589495744558280',
@@ -98,6 +98,6 @@
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-</script>
+</script> -->
   </body>
 </html>

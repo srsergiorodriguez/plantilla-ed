@@ -1,0 +1,7 @@
+<div>
+{% assign pages_list = site.texts | sort:"url" %}
+{% for node in pages_list %}
+  {% if node.title != null %}
+    <pre>{{ node.title | json }}</pre>
+  {% endif %}
+</div>

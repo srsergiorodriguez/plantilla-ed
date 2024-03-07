@@ -1,20 +1,14 @@
 # Built with Jekyll 3.6.0
 
 # Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
-baseurl:             '/ed'
-
-# About/contact
-author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+title:               Plantilla Ed en español # Título del proyecto
+tagline:             'Un tema de Jekyll para ediciones mínimas' # Subtítulo, cambiar de acuerdo con el proyecto
+description:         'Plantilla en español para ediciones mínimas basadas en Ed'
+url:                 'http://minicomp.github.io' # Cambiar por repositorio propio
+baseurl:             '/plantilla-ed' # Cambiar por url de base propia, también cambiar nombre de carpeta del proyecto y repositorio
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+color-scheme: cyan # Puede escogerse una paleta de colores entre las opciones arriba
 
 # Permalinks
 permalink: pretty

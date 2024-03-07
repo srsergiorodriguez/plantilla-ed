@@ -1,0 +1,40 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <!-- Este es el encabezado de TEI, es obligatorio en todo documento y contiene los metadatos de la fuente y la anotación. Debe tener al menos la etiqueta fileDesc -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>El Tiempo</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Codificado por Sergio Rodríguez Gómez</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>https%3A%2F%2Fnews.google.com%2Fnewspapers%3Fnid%3DN2osnxbUuuUC%26dat%3D19300101%26printsec%3Dfrontpage%26hl%3Des</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+
+  <!-- Este es la etiqueta text, que contiene los elementos anotados del documento original -->
+  <text>
+    <body>
+      <div>
+
+        <head type="main">UN GRAN TELESCOPIO</head>
+
+        <head type="sub">Exclusivo para <name type="org">El TIEMPO</name> y la <orgName>North American Newspaper Alliance</orgName></head>
+
+        <p>Gracias a la filantropía privada, la ciudad de <placeName>California</placeName> contará pronto con un gigantesco telescopio de doscientas pulgadas de diametro focal, capaz de penetrar en el espacio dos veces más de la distancia que escrutan en la actualidad los más potentes lentes estelares</p>
+
+        <p>Si se considera que la luz viaja a razón de 186.000 millas por segundo y que algunas de las sestrellas que se conocen, en virtud de los viejos telescopios, han demorado 140 millones de años para que su luz nos llegue, bien puede imaginarse la vastedad del horizonte que se va a investigar, y las concepciones de tiempo y distancia que ganaremos en el universo</p>
+
+        <p>En verdad que el hermoso y laudable proyecto, mueve a una serie de consideraciones, que no solo nos hacen ser conmiserativos con el pasado, sino que nos apenan de no vivir lo bastante para disfrutar de las conquistas del porvenir</p>
+
+        <p>No hace aún dos siglos que Newton fue puesto en la picota, por sus teorías sobre la ley de la gravedad, que se decían contrarias a las escrituras sagradas; se quemaron una vez los libros de Darwin; y Galileo y Copérnico, como otros tantos sabios, fueron víctimas del obscurantismo. Hoy, cuando <name type="person">Einstein</name> anuncia sus teorías revolucionarias, los periódicos le dedican páginas enteras, aunque no las entiendan, y como Edison y Madame Curie es proclamado el más alto genio</p>
+
+      </div>
+    </body>
+  </text>
+
+</TEI>
